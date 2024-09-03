@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.main{
+    display: grid;
+    grid-template-columns: 250px 2fr 1fr;
+}
+
+
+nav{
+    margin: 10px 0 0 20px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    transition: background-color 0.30s;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+nav div:hover{
+    background-color: #91c6e736;
+    height: 40px;
+    border-radius: 20px;
+}
+
+nav div strong{
+    transition: color 0.30s;
+}
+
+nav div:hover strong{
+    color: #1da0f1;
+}
+.logo{
+    margin: 10px 0 0 20px;
+    height: 25px;
+   
+}
+
+.home, .explore, .notifications{
+    height: 35px;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+
+.home-text{
+    color: #1da0f1;
+}
+
+.profile{
+    height: 32px;
+    margin-right: 23px;
+    padding-left: 4px;
+}
+.messages{
+    height: 27px;
+    width: 28px;
+    padding-left: 7px;
+    margin-right: 25px;
+}
+
+.bookmarks{
+    height: 35px;
+    margin-right: 20px;
+}
+
+.list{
+    height: 25px;
+    margin-right: 28px;
+    padding-left: 7px;
+}
+
+.more{
+    height: 30px;
+    padding-left: 5px;
+    margin-right: 25px;
+}
+
+.tweet-button{
+    width: 190px;
+    height: 35px;
+    border-radius: 18px;
+    border-width: 1px;
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: #1da1f2;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: #3897d1;
+    box-shadow: 2px 2px 2px #00000052;
+    transition: background-color 0.30s;
+    cursor: pointer;
+} 
+
+.tweet-button:hover{
+    background-color: #0c8ddd;;
+}
