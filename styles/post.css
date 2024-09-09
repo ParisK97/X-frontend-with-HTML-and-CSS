@@ -1,0 +1,80 @@
+.middle-section{
+    height: 100%;
+    border-left: 2px solid rgba(226, 226, 226, 0.342);
+    border-right: 2px solid rgba(226, 226, 226, 0.342);
+    background-color: rgba(226, 226, 226, 0.342);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.middle-section .home{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 2px;
+    background-color: white;
+}
+
+.support{
+    height: 30px;
+}
+
+
+.x-post{
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+.x-post .pp{
+    height: 50px;
+    clip-path: circle();
+    margin: 10px 15px 0 5px;
+}
+
+.interactive-icons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50px;
+    margin-left: 70px;
+}
+
+.interactive-icons img{
+    height: 30px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#smiley{
+    height: 40px;
+}
+
+.interactive-options{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.small-tweeter-button{
+    height: 28px;
+    color: white;
+    background-color: #1da1f2;
+    font-weight: bolder;
+    border-style: solid;
+    border-radius: 13px;
+    border-color: #3897d1;
+    box-shadow: 2px 1px 5px #00000038;
+    transition: background-color 0.30s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.post{
+    border: none;
+}

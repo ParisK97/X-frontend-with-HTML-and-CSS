@@ -1,15 +1,23 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
+    margin: 0;
 }
 .main{
     display: grid;
     grid-template-columns: 250px 2fr 1fr;
+    height: 100vh;
 }
 
+.left-side{
+    position: relative;
+}
 
 nav{
     margin: 10px 0 0 20px;
+    padding-top: 25px;
+    width: 200px;
+    position: fixed;
 }
 
 nav div {
@@ -39,6 +47,7 @@ nav div:hover strong{
 .logo{
     margin: 10px 0 0 20px;
     height: 25px;
+    position: fixed;
    
 }
 
@@ -83,6 +92,9 @@ nav div:hover strong{
 
 .tweet-button{
     width: 190px;
+    position: fixed;
+    bottom: 80px;
+    left: 7px;
     height: 35px;
     border-radius: 18px;
     border-width: 1px;
@@ -92,7 +104,7 @@ nav div:hover strong{
     font-weight: bolder;
     border-style: solid;
     border-color: #3897d1;
-    box-shadow: 2px 2px 2px #00000052;
+    box-shadow: 2px 2px 5px #00000038;
     transition: background-color 0.30s;
     cursor: pointer;
 } 
